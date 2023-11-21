@@ -1,0 +1,28 @@
+{
+
+  "users": [
+    {
+      "id": 1,
+      "name": "Janaina Oliveira",
+      "email": "Nayna07@hotmail.com"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 3,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

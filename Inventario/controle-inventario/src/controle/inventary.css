@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(173, 171, 169);
+    margin: 0;
+    padding: 0;     
+}
+
+.Container {
+    width: 100%;
+    max-width: 800px;
+    margin: 200px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-adicionar[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.btn-adicionar {
+    padding: 8px 16px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn-adicionar:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+li {
+    background-color: #eee;
+    margin: 8px 0 ;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.btn-remover {
+    background-color: #ff3333; 
+    padding: 8px 16px;
+    margin: 2px;   
+    font-size: 16px;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn-remover:hover {
+    background-color: #cc0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

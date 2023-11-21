@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #7f8b97;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Link-nav{
+    color: aliceblue;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.Link-nav:hover {
+    color: #ffc107;
+}
+
+.Link-nav-sair {
+    color: rgb(59, 14, 240);
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.Link-nav-sair:hover {
+    color: rgb(215, 226, 63);
+}
